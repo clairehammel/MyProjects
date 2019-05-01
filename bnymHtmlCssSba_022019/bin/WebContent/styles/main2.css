@@ -1,0 +1,139 @@
+/* bullets disappear & items line up on left side*/
+*{   
+    margin: 0;
+    padding: 0;
+}
+
+/*add styling to navigation*/
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #bdedff;
+    /*border-bottom: 5px solid blue;*/
+}
+
+logo /*styling for logo image/branding 
+{
+    width: 60px;
+    float: left;
+    padding: 0px 20px;
+}*/
+/*this is for the menu ul tag */
+.nav ul{
+    float: left;
+  }
+.nav ul li { 
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display:inline-block;
+    vertical-align:top;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 14px;
+    padding:10px 14px;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: block;
+    position: absolute;
+}
+    
+
+/*add styling to nested ul li ul */
+.menu ul li ul  {
+            display: none;
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border-radius: 0px 0px 4px 4px;
+}
+/*add styling to navigation to nested ul li ul */
+.menu ul li:hover {
+    background: lightgray;
+    display: block;
+}
+.menu li a:hover{
+    color: red;
+}
+.darrow {
+    font-size: 8pt;
+    position: absolute;
+    top: 25px;
+    right: 1px;
+    }
+        .menu ul li ul li {  
+            width: 180px;
+            border-radius: 4px;
+        }
+        .menu ul li ul li a {  
+            padding: 8px 14px;
+        } */
+#footer{
+    background-color: #bdedff;
+    position: relative;
+    height: 130px;
+    margin-top: -100px;
+    clear:both;
+}
+
+/* TABLE STYLING */
+p{
+    margin: max;
+}
+table, td{
+    border: 4px solid black;
+    border-collapse: collapse;
+    background-color: #bdedff;
+
+}
+td{
+    padding: 10px;
+    text-align: center;
+    vertical-align:bottom;
+}
+
+/*jQuery Form*/
+.workarea table tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+       color: black;
+}
+.form_text{
+    height: 10px;
+    font-size: 20px;
+    color: pink;
+    padding: 6px 24px;
+}
+.sbmt_btn{
+    margin-top: 20px;
+    -moz-box-shadow:inset 0px 1px 0px 0px blue;
+    -webkit-box-shadow:inset 0px 1px 0px 0px blue;
+    box-shadow: inset 0px 1px 0px 0px blue;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, white), color-stop(green))
+    background -moz-linear-gradient(top, red 5%, aqua 100);
+    background:-webkit-linear-gradient(top, #ffffff 5%, aqua 100%);
+    background:-o-linear-gradient(top red 5%, aqua 100);
+    background:-ms-linear-gradient(top, red 5%, aqua 100);
+    background:linear-gradient(top, red 5%, aqua 100);
+    background-color: white;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px white;
+    outline: 0px;
+}

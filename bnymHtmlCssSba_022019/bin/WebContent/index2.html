@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Fin Swim School</title>
+        <link rel="stylesheet" type="text/css" href="./styles/main2.css">
+     </head>
+        <body>
+    
+       <!--<a href="#"><img src="./images/logo_clairebear.jpg" alt="" class="logo" style="width:7em; height:6em;"></a> -->          
+        <header>
+            <a href="#" id="logo"></a>
+
+            <!--Create Navigation Menu-->
+            <nav>
+                <!-- added inline <h1> tag-->
+                 <h1><p>Claire's Swim School</p></h1>
+
+                        <a href="#" id="menu-icon"></a>
+
+                    <!--create navmenu container-->
+                <ul id="navmenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Classes</a><span class="darrow">&#9660</span>
+                        <ul class="subl">
+                            <li><a href="./views/Products.html">Vitamin Elixirs</a></li>
+                            <li><a href="#">6-12 months</a></li>
+                            <li><a href="#">12-24 months</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="./views/Contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+                        <!-- automated animation code-->
+        <img id = "myImage" src = "./images/signupforswimlessions.jpg" width="900px"/>           
+        <div style="text-align:center;width:580px;height:500px;">
+        <button id= 'KeyA'>UP</button><br><br><button id= 'KeyW'>LEFT</button>
+        <button id = 'KeyD'>RIGHT</button><br><br><button id= 'KeyS'>DOWN</button> <br>
+    <!-- <button type = 'button' onclick="closeWindow()">Close Window! </button> -->
+        
+    <h1>Brooklyn & Harlem Swimming Lessons</h1>
+    <p>The teachers of SwimJim are the most recognized swimming instructors in New York and Houston, Texas. 
+    We have developed an ordered, methodical approach to teaching swimming skills and to cultivate water 
+    competency. We believe the success with which our students navigate in the water proves the programâs 
+    effectiveness.The most important aspect of our teaching process is our disciplined but loving dedication 
+    to getting children in and comfortable with the water. We are thoughtful and observant of childrenâs 
+    behavioral and developmental patterns and will respond to their fears and concerns with love, humor 
+    and discipline. This will guide them through the necessary steps to become independent, competent 
+    swimmers. This firm, loving approach is the hallmark of FINS Swim School. All the members of the FINS Swim School
+    team are committed to the highest level of excellence in everything we do. We are proud members of: 
+    The United States Swim School Association, The World Aquatic Baby Congress, Underwater Schoolhouse and 
+    Stop Drowning Now.</p><br>
+
+    </div>
+        <!--CREATE A FOOTER-->
+        <footer id="footer">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>   
+            <br>&copy;Copyright 2019 | FINS Swim School LLC, All Rights Reserved
+        </footer>          
+    </body> 
+
+                    <!-- below automatic animation -->
+  <script>
+   var animate;
+   const buttons = document.querySelectorAll('button');
+   for(var i=0; i< buttons.length;i++){
+     buttons[i].addEventListener('click',function() {moveImage(event.target.id);});
+     document.addEventListener('mouseup',function() {	});}
+   function moveImage(direction) {
+      if(direction==='KeyD'){imgObj.style.left = parseInt(imgObj.style.left) + 5 + 'px';};
+      if(direction==='KeyW'){imgObj.style.left = parseInt(imgObj.style.left) - 5 + 'px';};
+      if(direction==='KeyA'){imgObj.style.top = parseInt(imgObj.style.top) - 5 + 'px';};
+      if(direction==='KeyS'){imgObj.style.top = parseInt(imgObj.style.top) + 5 + 'px';}
+        //if(direction==='CLOSE'){imgObj.style.top = parseInt(imgObj.style.top) + 2 + 'px';}
+      animate = setTimeout(function(){moveImage(direction)},40);
+      };      
+      function init() {
+      imgObj = document.getElementById('myImage');
+      imgObj.style.position= 'relative';  
+      imgObj.style.left = '0px'; imgObj.style.top = '0px';};
+      window.onload = init;
+     function closeWindow(){
+         myWindow.close();
+     }
+    </script>
+</html>

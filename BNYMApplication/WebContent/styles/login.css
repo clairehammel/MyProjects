@@ -1,0 +1,68 @@
+body {
+	font-family: 'Mandali', sans-serif;
+}
+
+#main_container {
+	background-color: #52eadd;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+#grey_container {
+	background-color: #e6e6e6;
+	color: #58667c;
+	width: 300px;
+	height: 300px;
+	margin: 75px auto;
+}
+
+#form_container {
+	/*background-color: lightpink;*/
+	width: 200px;
+	height: 200px;
+	margin: 0 50px;
+	text-align: center;
+}
+
+a {
+	color: blue;
+}
+
+.inputtext {
+	background-color: #eee;
+	margin: 8px;
+	height: 30px;
+	width: 110px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+}
+
+#submit_button {
+	background-color: skyblue;
+}
+
+#create_button {
+	background-color: skyblue;
+	width: 200px;
+}
+
+#icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: lightblue;
+	display: inline-block;
+	margin-top: -20px;
+}
+
+img {
+	width: 50px;
+}

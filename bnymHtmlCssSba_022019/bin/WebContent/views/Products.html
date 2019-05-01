@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>Vitamins</title>   
+
+              <!--Link to external stylesheet-->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css"> 
+
+        <style>
+            body{
+                max-width: 1240px;
+                width: 90%;
+                margin: 0 auto;
+                background-color: #f6f6f6; /*body color gray*/
+            }
+            .product{
+                display: flex; /*aligns it horizontally*/
+                flex-wrap: wrap; /*force as many as possible on a line before moving to the next*/
+            }
+
+            .product-card{
+               /* flex: 1; /*adds space between boxes*/
+                /*flex-basis: 16%;*/
+                flex: 1 16%;
+                padding: 2%;
+                background-color: #fff;
+                box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 25);/*create shadow line btw boxes*/
+                margin-bottom: 10px;
+                /*display: flex; /*made even smaller*/
+            }
+
+            .product-image img{
+                max-width: 100%; /*resize images*/
+
+            }
+            .product-info{
+                text-align: center;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!--create menu container for eCommerce site-->
+         <div class="menu_container">
+            <div class="menu_item">
+            </div>
+                <div class="menu_item">
+
+         <!--create navigation bar-->
+                    <nav>
+                        <h1><p>Claire's Health Elixirs</p></h1>
+                                <a href="#" id="menu-icon"></a>
+                            <!--create navmenu and nest submenu for drop down-->
+                        <ul id="navmenu">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="Products.html">Shop</a><span class="darrow">&#9660</span>
+                                <ul class="subl">
+                            <li><a href="Products.html">Vitamin Elixirs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="ContactUs.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+   <div class="title_container">
+            <h5>Your Shop Consultant is : CARE BY CLAIRE</h5>
+        </div>
+
+        <!--create product container-->
+        <section class="product">
+            <!--create product card container-->
+            <div class="product-card">
+                <!--create product image container-->
+                <div class="product-image">
+                    <img src="../images/opc3.jpg" alt="opc3">
+                </div>
+                <!--create product info container-->
+                <div class="product-info">
+                    <h5>Isotonix OPC3</h5>
+                    <h6>$74.99</h6>
+                </div>
+            </div>
+    
+            
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitB.jpg" alt="vitamin B">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Activated B Complex</h5>
+                    <h6>$29.99</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitC.jpg" alt="vitamin C">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Vitamin C</h5>
+                    <h6>$29.99</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitD.jpg" alt="vitamin D3">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Vitamin D</h5>
+                    <h6>$31.99</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitCalcium.jpg" alt="Calcium Complete">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Calcium Complete</h5>
+                    <h6>$22.95</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitdaily.jpg" alt="Daily Essentials">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Daily Essentials</h5>
+                    <h6>$77.00</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitG.jpg" alt="Complete Greens">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Complete Greens</h5>
+                    <h6>$49.00</h6>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitwomen.jpg" alt="Women's Health">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Women's Health</h5>
+                    <h6>$79.00</h6>
+                </div>
+            </div>
+
+                <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitmult.jpg" alt="Multivitamin">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Multivitamin</h5>
+                    <h6>$54.00</h6>
+                </div>
+            </div>
+
+
+               <div class="product-card">
+                <div class="product-image">
+                    <img src="../images/vitBeauty.jpg" alt="Beauty Blend">
+                </div>
+                <div class="product-info">
+                    <h5>Isotonix Beauty Blend</h5>
+                    <h6>$75.50</h6>
+                </div>
+            </div>
+
+        </section>
+        <div class="product-testimony-container">
+            <br><h3>Product Testimony</h3>
+       
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/n6QcWBfC7sI" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+       
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8dEX6SDH3wk" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+       </div>
+
+       <!--Create a Table of How Claire's Elixir Compares with the Competition-->
+         <div class="how-we-compare">
+            <br><h3>Product Comparison</h3>
+            <table width="560" height="100">
+                <tr>
+                    <th>Distributor</th>
+                    <th>Average Cost</th>
+                    <th># of Servings</th>
+                    <th>Shelf Life</th>
+                </tr>
+                
+                <tr>
+                    <td>Claire's Elixirs</td>
+                    <td>$59</td>
+                    <td>90</td>
+                    <td>5 years</td>
+                </tr>
+
+                <tr>
+                    <td>Lorem Ipsum</td>
+                    <td>$79</td>
+                    <td>60</td>
+                    <td>2 years</td>
+                </tr>
+
+                <tr>
+                    <td>Duane Reade</td>
+                    <td>$99</td>
+                    <td>45</td>
+                    <td>1 years</td>
+                </tr>
+            </table>
+         </div>
+
+           <!--created footer container-->  
+            <div class="footer1">
+                 <br>  <footer>&copy;Copyright Care by Claire</footer>
+            </div> 
+        </body>
+</html>

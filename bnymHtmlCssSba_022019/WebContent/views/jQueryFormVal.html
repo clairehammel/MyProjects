@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>jQueryFormVal</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/main2.css">
+    <script type="text/javascript language="javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript language="javascript" src="formValidation.js"></script>
+    </head>
+        <body>
+            <div class="navbar">
+                <div class="logo_div">
+                <a href="#"><img src="../images/logo_clairebear.jpg" alt="" class="logo" style="width:9em; height:8em;"></a>   
+            </div>
+                <div class = "navbar_links">   
+                    <ul class = "menu"> 
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li><span class="darrow">&#9660</span>
+                            <ul>
+                                <li><a href="#">Babies</a></li>
+                                <li><a href="#">Toddlers</a></li>
+                            </ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li><br><br><br>
+                    </ul>
+                </div>
+            </div><br><br><br>
+
+                    <!--FORM VALIDATION-->
+<div class="workarea">
+    <h1>Create an Account</h1>
+
+    <form id=registration_form action" FormSubmission.html" method="post"></form>
+    <table>
+    <tr><td>Choose Username: </td><td><input type="text" class="form_text" id="form_username"></td><td><span class="error_message"></span></td></tr>
+    <tr><td>Choose Password: </td><td><input type="password" class="form_text" id="form_password"></td><td><span class="error_message"></span></td></tr>
+    <tr><td>Retype Password: </td><td><input type="password" class="form_text" id="form_retype_password"></td><td><span class="error_message"></span></td></tr>
+    <tr><td>Email: </td><td><input type="text" class="form_text" id="form_email"></td><td><span class="error_message"></span></td></tr>
+    <tr><td></td><td><input type="submit" class="sbmt_btn" value="Create Account"></td><td></td></tr><br>
+</table><br>
+</form><br>
+
+</div> <!--end of workarea-->
+
+                    
+      <br><br><br><br><br><br> <footer id="footer"> <!--CREATE A FOOTER-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>   
+            <br>&copy;Copyright 2019 | FINS Swim School LLC, All Rights Reserved
+        </footer>          
+    </body>      
+</html>

@@ -1,0 +1,52 @@
+  
+   	section {
+   	color: #37383a;
+   	width: 60%;
+   	margin: auto;
+   	background-color: #a0efe5;
+   	border-radius: 5px;
+   	padding-top: 50px;
+   	padding-bottom: 100px;
+   	font-family: 'Mandali', sans-serif;
+   	line-height: 1.4em;
+   	}
+   	h1 {
+   	margin: 20px;
+   	padding-top: 20px;
+   	font-size: 2em;
+   	text-align: center;
+   	}
+   	h2 {
+   	margin: 20px;
+   	text-align: center;
+   	}
+   	p {
+   	margin: 20px;
+   	text-align: center;
+   	}
+   	table {
+   	width: 60%;
+   	margin: auto;
+   	}
+   	label {
+   	text-align: right;
+   	}
+   	td.left {
+	width: 30%;
+   	}
+   	td.right {
+   	width: 100%;
+   	}
+   	option {
+   	width: 100px;
+   	}
+   	input {
+   	padding: 5px;
+   	width: 100%;
+   	}
+   	#btn {
+   	width: 200px;
+   	margin: 20px 0 0 37%;
+   	padding: 8px;
+   	}
+   </style>

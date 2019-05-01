@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="ISO-8859-1">
+    <title>Login Form</title>
+    <script type="text/javascript">
+        
+            function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" action="FormSubmission.html" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname"> <br>
+        Password: <input type="text" name="password"> <br>
+        Retype Password:  <input type="text" name="retypepassword"> <br>
+        Email:  <input type="text" name="email"> <br>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

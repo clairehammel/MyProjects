@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="../styles/main2.css">
+    <script type="text/javascript">
+
+    function check_info(){
+        var username document.getElementById["username"].value;
+        var password document.getElementById["password"].value;
+        
+        if(username==="" || password==""){
+            alert('Please fill in all fields');
+            return false;
+        }
+        also{
+            return true;
+        }
+        }
+        </script>
+</head>
+    <body>
+        
+     </head>
+        <body>
+            <div class="navbar">
+                <div class="logo_div">
+                <a href="#"><img src="../images/logo_clairebear.jpg" alt="" class="logo" style="width:9em; height:8em;"></a>   
+            </div>
+                <div class = "navbar_links">   
+                    <ul class = "menu"> 
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li><span class="darrow">&#9660</span>
+                            <ul>
+                                <li><a href="#">Babies</a></li>
+                                <li><a href="#">Toddlers</a></li>
+                            
+                            </ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li> <br>
+                    </ul>
+                </div>
+            </div>
+<div class="loginparents">
+       <br> <h2> Log in </h2>
+        <a>Welcome to SwimJim's Parent Portal - Please sign in.</a>
+
+    <!--if this functions returns "true" the user will move on and if this function
+    returns false then error message-->
+        <form action="FormSubmission.html" method="post" onsubmit="return check_info()" >
+            Username:<input type="text" name="username" id="username"/><br>
+            Password:<input type="password" name="password" id="password"/><br>
+            <input type="submit" value="login"/>
+        </form>
+    </div>
+    </body>
+</html>
